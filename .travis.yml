@@ -1,0 +1,6 @@
+# Setting python here as it has probably
+# the easiest build configuration in Travis
+# Basically this makes Travis only run the
+# below specified script
+language: python
+script: ./test.sh
